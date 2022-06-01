@@ -11,7 +11,7 @@ import { NotificationProvider } from 'web3uikit';
 
 ReactDOM.render(
   <React.StrictMode>
-    <MoralisProvider appId="xxxx" serverUrl="xxxx">
+    <MoralisProvider appId="XPVtpnJpFfq6mRIhWdgspSZ5nuyjfRUCGkV0rrVS" serverUrl="https://prxwm6ndocn8.usemoralis.com:2053/server">
       <NotificationProvider>
       <BrowserRouter>
         <App />
@@ -22,7 +22,4 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();

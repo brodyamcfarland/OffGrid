@@ -1,4 +1,5 @@
 .container {
+  background-image: linear-gradient(rgb(0,0,0,100), rgba(0, 49, 49, 0.925));
   position: absolute;
   top: 0;
   height: 100vh;
@@ -8,7 +9,6 @@
 }
 
 .containerGradinet {
-  background-image: linear-gradient(rgb(0,0,0,0.75), rgb(0,0,0,0));
   height:50%;
   width:100%
 }
@@ -25,13 +25,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width:93%;
+  width:95%;
   padding: 30px 60px;
 }
 
 .logo{
-  width:10vw;
-  height:calc(10vw*0.3)
+  width:13vw;
+  height:calc(13vw*0.3)
 }
 
 .tabContent {
@@ -42,8 +42,8 @@
 
 .searchFields {
   width:800px;
-  background-color: white;
-  height:65px;
+  background-color: rgb(255, 255, 255);
+  height:68px;
   border-radius: 100px;
   display: flex;
   justify-content: space-evenly;
@@ -56,8 +56,9 @@
   font-weight: 500;
   display: flex;
   justify-content: center;
-  gap:35px;
+  gap:60px;
   font-size: 16px;
+  padding-right: 5.5rem;
 }
 
 .selected {
@@ -98,7 +99,7 @@
 .randomLocation {
   margin-top: 25vh;
   color: white;
-  width: 300px;
+  width: 450px;
   padding-left:100px;
 }
 
@@ -111,4 +112,9 @@
 .text {
   font-weight: 600;
   margin-bottom: 25px;
+}
+
+.pagelinx {
+  text-decoration: none;
+  color: white;
 }
