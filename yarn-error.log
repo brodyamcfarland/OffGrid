@@ -28,7 +28,7 @@ Trace:
 
 npm manifest: 
   {
-    "homepage": "https://brodyamcfarland.github.io/OffGrid",
+    "homepage": "http://brodyamcfarland.github.io/offgrid",
     "name": "airbnb-clone",
     "version": "0.1.0",
     "private": true,
@@ -61,7 +61,8 @@ npm manifest:
       "start": "react-scripts start",
       "build": "react-scripts build",
       "test": "react-scripts test",
-      "eject": "react-scripts eject"
+      "eject": "react-scripts eject",
+      "clean": "rm -rf node_modules/gh-pages/.cache"
     },
     "eslintConfig": {
       "extends": [

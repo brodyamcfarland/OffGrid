@@ -123,7 +123,7 @@ const Rentals = () => {
     <>
       <div className="topBanner2">
         <div>
-          <Link to="/">
+          <Link to="/home">
             <img className="logo" src={logo} alt="logo"></img>
           </Link>
         </div>
