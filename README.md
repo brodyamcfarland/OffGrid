@@ -2,6 +2,8 @@ OffGrid is a blockchain Airbnb clone that allows you to pay for ficticious vacat
 
 This project was made to help me bettter understand Web3 User interfaces, error handling, and integrating Moralis. The rental map is integrated with my Google API, and Moralis handles all of the smart contract integration and backend. Moralis was a pleasure to use and was much quicker than other routes ive taken on other projects.
 
+Current Issues: Web3Ui Kit error handling is breaking in production for unconnected wallets. Errors will show, but unreadable. Home page search form had to be stretched after deployment. (<Select /> Box is bigger in production for some reason. )
+
 Dependencies:
 React
 NodeJS
